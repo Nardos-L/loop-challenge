@@ -8,6 +8,7 @@
     for (var i=1; i<=100; i++){
         sum+=i;        
     }
-    console.log(sum);
+    return sum;
  }
- addNums();
+ var result = addNums();
+ console.log(result);
